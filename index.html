@@ -3,7 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ing. Arnošt Lenoch, MBA – PBŘ & BOZP</title>
+
+  <title>PBŘ a BOZP Přerov | Ing. Arnošt Lenoch, MBA</title>
+
+  <meta name="description" content="Zpracování PBŘ a BOZP dokumentace v Přerově a okolí. Požárně bezpečnostní řešení staveb, školení BOZP a požární dokumentace.">
+  <meta name="keywords" content="PBŘ Přerov, BOZP Přerov, požární řešení staveb, požární dokumentace, školení BOZP">
+  <meta name="author" content="Ing. Arnošt Lenoch">
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -21,25 +27,9 @@
       box-shadow: 0 8px 20px rgba(0,0,0,0.5);
     }
 
-    .header-inner {
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      gap:8px;
-      flex-wrap:wrap;
-    }
-
-    .header-text {
-      text-align:center;
-      flex:1;
-    }
-
-    
-
     .logo {
       width:150px;
       height:150px;
-      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.6));
     }
 
     nav {
@@ -77,18 +67,6 @@
       padding:20px;
       border-radius:12px;
       box-shadow:0 2px 8px rgba(0,0,0,0.15);
-      transition: transform 0.2s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    footer {
-      background:#000;
-      color:white;
-      text-align:center;
-      padding:20px;
     }
 
     .btn {
@@ -99,68 +77,35 @@
       border-radius:10px;
       text-decoration:none;
       font-weight:bold;
-      box-shadow:0 4px 10px rgba(0,0,0,0.4);
-      transition: all 0.2s ease;
     }
 
-    .btn:hover {
-      transform: translateY(-2px);
-      box-shadow:0 6px 14px rgba(0,0,0,0.5);
-    }
-
-    img {
-      max-width:100%;
-      border-radius:8px;
-      margin-top:15px;
-    }
-
-    .hero-bg-preview {
-      width:100%;
-      height:250px;
-      object-fit:cover;
-      border-radius:10px;
-      margin-top:15px;
-      display:block;
+    footer {
+      background:#000;
+      color:white;
+      text-align:center;
+      padding:20px;
     }
   </style>
 </head>
+
 <body>
 
 <header>
-  <div class="header-inner" style="justify-content:center;">
-    <!-- řádek s logem a textem -->
-    <div style="display:flex; align-items:flex-start; justify-content:flex-start; gap:20px; width:100%; max-width:1000px; margin:0 auto; padding-left:40px;">
-      <!-- logo -->
-      <svg class="logo" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" style="width:150px;height:150px;">
-        <circle cx="60" cy="60" r="55" fill="#1d3557"/>
-        <defs>
-          <linearGradient id="flameGrad" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#ff6b00"/>
-            <stop offset="50%" stop-color="#ff2e00"/>
-            <stop offset="100%" stop-color="#b00000"/>
-          </linearGradient>
-          <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-            <feGaussianBlur stdDeviation="3" result="blur"/>
-            <feMerge>
-              <feMergeNode in="blur"/>
-              <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-          </filter>
-        </defs>
-        <path d="M60 20 C48 45,80 55,60 90 C40 55,72 45,60 20" fill="url(#flameGrad)" filter="url(#glow)"/>
-        <path d="M35 75 Q60 55 85 75 L85 85 L35 85 Z" fill="#f1faee"/>
-        <rect x="35" y="80" width="50" height="5" fill="#ccc"/>
-        <text x="60" y="105" font-size="10" fill="#ffffff" text-anchor="middle">PBŘ • BOZP</text>
-      </svg>
+  <div style="display:flex; align-items:flex-start; gap:20px; max-width:1000px; margin:auto;">
+    
+    <!-- logo -->
+    <svg class="logo" viewBox="0 0 120 120">
+      <circle cx="60" cy="60" r="55" fill="#1d3557"/>
+      <path d="M60 20 C48 45,80 55,60 90 C40 55,72 45,60 20" fill="#ff2e00"/>
+      <text x="60" y="105" font-size="10" fill="#ffffff" text-anchor="middle">PBŘ • BOZP</text>
+    </svg>
 
-      <!-- text zarovnaný k horní hraně loga -->
-      <div class="header-text" style="text-align:left; margin-top:0;">
-        <h1 style="font-size:2.2em; margin:0;">Ing. Arnošt Lenoch, MBA</h1>
-        <p style="font-size:1.2em; margin-top:10px;">Požárně bezpečnostní řešení (PBŘ) & BOZP služby</p>
-        <a class="btn" href="#kontakt" style="margin-top:10px; display:inline-block;">Nezávazná poptávka</a>
-      </div>
+    <div>
+      <h1>Ing. Arnošt Lenoch, MBA</h1>
+      <p>Požárně bezpečnostní řešení (PBŘ) a BOZP služby v Přerově a okolí</p>
+      <a class="btn" href="#kontakt">Nezávazná poptávka</a>
     </div>
-  </div>
+
   </div>
 </header>
 
@@ -171,36 +116,33 @@
 </nav>
 
 <section id="o-nas">
-  
-  <h2>O nás</h2>
-  <p>Nabízím profesionální zpracování požárně bezpečnostního řešení staveb (PBŘ) a kompletní BOZP dokumentace. Zaměřuji se na rodinné domy, rekonstrukce i komerční objekty.</p>
-  
+  <h2>PBŘ a BOZP Přerov</h2>
+  <p>Nabízím profesionální zpracování požárně bezpečnostního řešení (PBŘ) a BOZP dokumentace v Přerově a okolí (Olomoucký kraj). Zaměřuji se na rodinné domy, rekonstrukce i komerční objekty.</p>
 </section>
 
 <section id="sluzby">
-  <h2>Naše služby</h2>
+  <h2>Služby</h2>
+
   <div class="services">
+
     <div class="card">
-      <h3>PBŘ</h3>
-      <p>Zpracování požárně bezpečnostního řešení dle platných norem.</p>
-      <p><strong>Cena:</strong> Cena PBŘ závisí na parametrech stavby (jedinečnost, individuální přístup).</p>
-      <p><strong>Co ovlivňuje cenu:</strong></p>
-      <ul>
-        <li>Velikost a typ stavby</li>
-        <li>Rozsah projektové dokumentace</li>
-        <li>Stupeň složitosti stavby</li>
-      </ul>
+      <h3>PBŘ – Přerov a okolí</h3>
+      <p>Zpracování požárně bezpečnostního řešení staveb dle platných norem.</p>
+      <p><strong>Cena:</strong> individuální dle rozsahu a složitosti.</p>
     </div>
+
     <div class="card">
-      <h3>BOZP</h3>
+      <h3>BOZP – Přerov</h3>
       <p>Školení BOZP pro firmy i živnostníky.</p>
-      <p><strong>Cena:</strong> Cena se odvíjí od rozsahu školení.</p>
+      <p><strong>Cena:</strong> dle rozsahu školení.</p>
     </div>
+
     <div class="card">
       <h3>Požární dokumentace</h3>
-      <p>Požární poplachové směrnice, školení PO.</p>
-      <p><strong>Cena:</strong> Cena se odvíjí od rozsahu dokumentace.</p>
+      <p>Požární poplachové směrnice a dokumentace.</p>
+      <p><strong>Cena:</strong> dle rozsahu dokumentace.</p>
     </div>
+
   </div>
 </section>
 
@@ -208,41 +150,24 @@
   <h2>Kontakt</h2>
   <p><strong>Email:</strong> po.lenoch@seznam.cz</p>
   <p><strong>Telefon:</strong> +420 602 410 571</p>
-  <p><strong>IČO:</strong> 24604313</p>
-  <p><strong>Datová schránka:</strong> zt32ip4</p>
   <p><strong>Sídlo:</strong> Přerov</p>
 
   <h3>Nezávazná poptávka</h3>
+
   <form action="https://formsubmit.co/po.lenoch@seznam.cz" method="POST">
     <input type="hidden" name="_captcha" value="false">
 
-    <label>Název poptávky:</label><br>
-    <input type="text" name="nazev" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
+    <input type="text" name="jmeno" placeholder="Jméno / firma *" required><br><br>
+    <input type="email" name="email" placeholder="Email *" required><br><br>
+    <textarea name="zprava" placeholder="Zpráva *" required></textarea><br><br>
 
-    <label>Zpráva:</label><br>
-    <textarea name="zprava" required style="width:100%; padding:8px; margin-bottom:10px; height:100px;"></textarea><br>
-
-    <label>Jméno / Firma: *</label><br>
-    <input type="text" name="jmeno" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
-
-    <label>Adresa: *</label><br>
-    <input type="text" name="adresa" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
-
-    <label>Telefon: *</label><br>
-    <input type="tel" name="telefon" required style="width:100%; padding:8px; margin-bottom:10px;"><br>
-
-    <label>Email: *</label><br>
-    <input type="email" name="email" required style="width:100%; padding:8px; margin-bottom:15px;"><br>
-
-    <p><strong>Přílohy:</strong> Soubory, které mohou pomoci rychlému dořešení Vašeho požadavku, pošlete e-mailem na <a href="mailto:po.lenoch@seznam.cz">po.lenoch@seznam.cz</a>.</p><br>
-
-    <button class="btn" type="submit">Odeslat poptávku</button>
-  <p style="margin-top:10px; font-size:0.9em;"><em>* Povinné údaje</em></p>
+    <button class="btn">Odeslat</button>
   </form>
+
 </section>
 
 <footer>
-  <p>&copy; 2026 Ing. Arnošt Lenoch, MBA – PBŘ & BOZP</p>
+  <p>&copy; 2026 Ing. Arnošt Lenoch, MBA</p>
 </footer>
 
 </body>
